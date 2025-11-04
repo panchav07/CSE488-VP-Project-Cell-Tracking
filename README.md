@@ -73,9 +73,10 @@ Key environment variables:
 Every team must host a lightweight public page that summarizes results and embeds demo videos. This repo includes a template at `docs/index.md`; GitHub Pages can publish anything under `docs/` straight from the `main` branch.
 
 1. Edit `docs/index.md` with your team name, updated badge link (point it at your fork), metrics tables, and embedded media (place assets under `docs/assets/`).
-2. Push the changes to `main`.
-3. In your fork’s GitHub settings, open **Pages → Build and deployment**, choose **Deploy from branch**, select `main` and `/docs`, and click **Save**. GitHub will provision `https://<username>.github.io/<repo>/`.
-4. Add that URL to your Canvas submission and the repo README.
+2. Commit/push the changes to `main`.
+3. On GitHub (while viewing your fork), click **Settings** in the top nav, then **Pages** in the left sidebar.
+4. Under **Build and deployment**, choose **Deploy from branch**, select branch `main` and folder `/docs`, then click **Save**. Refresh the page—GitHub will show `https://<username>.github.io/<repo>/` once the build completes (may take ~1 minute).
+5. Add that URL to your README and Canvas submission (update it whenever the site changes).
 
 Tip: run `python -m http.server 8000` from the repo root and visit `http://localhost:8000/docs/` to preview changes before pushing.
 
