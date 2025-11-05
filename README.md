@@ -82,10 +82,11 @@ Each team must host a lightweight public page that summarizes results and embeds
 
 1. Edit `docs/index.md` (and any `/docs/assets/*` media) so it reflects your project. Preview locally with `python -m http.server 8000` and visit `http://localhost:8000/docs/`.
 2. Commit and push to `main` in your fork.
-3. In Cloudflare, open **Workers & Pages → Create application → Pages → Connect to Git**. When prompted, authorize the Cloudflare Pages GitHub app for your fork.
+3. Visit https://dash.cloudflare.com (create a free account if you do not already have one), then open **Workers & Pages → Create application → Pages → Connect to Git**. When prompted, authorize the Cloudflare Pages GitHub app for your fork.
 4. Select your repo/branch, set **Framework preset** to `None`, leave the build command empty, and set the **Build output directory** to `docs`. Save to trigger the first deploy; Cloudflare provides `https://<project>.pages.dev`.
 5. In your GitHub repo, go to **Settings → Pages** and set “Build and deployment” to **Disabled** so Cloudflare is the only publisher.
 6. Update the README badge/link to point at the Cloudflare URL and include that URL in your Canvas submission. For a custom hostname, add it under **Pages → Custom domains** and create the suggested CNAME in Cloudflare DNS.
+7. **Fallback option:** If Cloudflare Pages is unavailable, share the rendered `docs/index.md` directly by linking to the file in your private repo (grant graders read access) and ensure the README clearly states that temporary arrangement.
 
 ## License
 
