@@ -1,11 +1,11 @@
-# TEAM_NAME – Cell Segmentation & Tracking Showcase
+# VP – Cell Segmentation & Tracking Showcase
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Code-181717?logo=github&logoColor=white)](https://github.com/jfemiani/CSE488-Project-Cell-Tracking)
 
 > Replace `TEAM_NAME`, update the badge link to your fork, and embed your own visuals. This page is what you submit as the public-facing deliverable.
 
 ## Project Overview
-
+I am doing this Project individually.
 - **Dataset(s):** E.g., Fluo-N2DH-GOWT1 (tracks 01 & 02)
 - **Team roles:** segmentation lead, tracking lead, evaluation lead
 - **Summary:** Briefly explain your approach and what makes it unique.
